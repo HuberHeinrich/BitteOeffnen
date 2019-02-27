@@ -1,2 +1,125 @@
 
-hello
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hannah</title>
+    <link rel="stylesheet" href="css%2520Kopie/reset.css">
+     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<style>
+    
+    .schrift1 {
+        font-family: monospace;
+        font-size: 12px;
+        color: black;
+        
+        margin: 10px;
+        margin-top: 40px;
+    
+    }
+    
+    
+    .positionfisch {
+        margin-left: 400px;
+        margin-top: 400px;
+        z-index: 1;
+        
+        
+        
+    }
+    
+    
+    
+    .images {
+        margin-left: 800px; 
+        margin-top: 100px;
+        
+     
+    }
+    
+     .shuffle
+     { display: none; 
+         
+     }
+    
+    
+    
+    </style>
+<body>
+   <!-- menu -->
+   
+   <div class="schrift1">  
+   
+   <a href="index.html" class="schrift1"> hannah</a>  
+   
+   <a href="pingpong.html" class="schrift1">pingpong</a>
+   
+    <a href="performancekleider.html" class="schrift1">Ich trage jeden tag</a>
+    
+    <a href="installationetiketten.html" class="schrift1">Und du so?</a>
+    
+    <a href="Sammlung.html" class="schrift1">Sammlung</a>
+     
+    <a href="performancesdangio.html" class="schrift1">Heute lieber nicht</a>
+    
+    
+    <a href="installationT%C3%BCten.html" class="schrift1">Flaschen</a>
+    
+     <a href="InstallationHungerturmRobertWalser.html" class="schrift1">Ich fordere mich</a>
+    
+   
+    <a href="performanceduschhaube.html" class="schrift1">Die Duschhaube</a>
+   hannah_billich@hotmail.de
+    
+    </div>
+    
+    
+    
+    
+    <!-- shuffle  --> 
+    <div class="shuffle shuffle1">
+        
+        <div class="schrift1 positionfisch"> <p>
+            und du so?
+        </p></div>
+        
+ 
+        
+    </div>
+    
+    <div class="shuffle shuffle2">
+        
+        <div class="schrift1 positionfisch"><p>
+            und du so? 
+        </p> </div>
+        
+   
+    </div>
+    
+    <div class="shuffle shuffle3">
+        
+        <div class="schrift1 positionfisch"><p>
+            Und du so?
+        </p> </div>
+        
+   
+    </div>
+  
+   
+   
+   
+    
+    
+    <!-- shuffle main page -->
+    <script type="application/javascript"> 
+    $(document).ready(function(){
+        var i= 1 + Math.floor(Math.random() * 3);
+        $(".shuffle"+ i).show();
+    
+    });
+    </script>
+</body>
+</html>
